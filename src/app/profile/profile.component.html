@@ -1,0 +1,26 @@
+<div class="wrapper">
+
+
+  <div align="center">
+    <h2> USER PROFILE</h2>
+  </div>
+  <div>
+    <form class="form-signin" (ngSubmit)="onSubmit()" >
+          <label > <span class="clean-font">First Name</span></label>
+          <input type="text" class="form-control" name="firstname" [(ngModel)]="firstname" placeholder="firstname" name="firstname" required autofocus="" />&nbsp;
+          <label > <span class="clean-font">Last Name</span></label>
+          <input type="text" class="form-control" name="lastname" [(ngModel)]="lastname" placeholder="lastname" name="lastname"  autofocus="" />&nbsp;
+
+          <label > <span class="clean-font">Email</span></label>
+          <input type="text" class="form-control" name="email" [(ngModel)]="email" placeholder="email" name="email"  autofocus="" />&nbsp;
+
+          <label > <span class="clean-font">Street</span></label>
+          <input type="text" class="form-control" name="street" [(ngModel)]="street" placeholder="street" name="street"  autofocus="" />&nbsp;
+          <label > <span class="clean-font">City</span></label>
+          <input type="text" class="form-control" name="city" [(ngModel)]="city" placeholder="city" name="city"  autofocus="" />&nbsp;
+          <label > <span class="clean-font">Zip</span></label>
+          <input type="text" class="form-control" name="zip" [(ngModel)]="zip" placeholder="zip" name="zip"  autofocus="" />&nbsp;
+          <button class="btn btn-primary btn-block" type="submit">Login</button>
+  </form>
+  <div>
+</div>
